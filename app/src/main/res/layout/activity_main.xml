@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnRegisterRedirect"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="44dp"
+        android:text="Register"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnLoginRederect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRegisterRedirect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/loging"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtNotLoginAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLoginRederect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="33dp"
+        android:text="You are not loged in"
+        android:textAlignment="center"
+        android:textColor="@color/RedAccent"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_above="@+id/txtNotLoginAlert"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="24dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/RedAccent"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="wrap_content"
+        android:layout_height="341dp"
+        android:layout_above="@+id/pbLoading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/farmer_assist" />
+
+    <TextView
+        android:id="@+id/txtMyDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Name: Kavinda UWIP     RegNO: E2042007"
+        android:textAlignment="center"
+        android:textColor="@color/RedAccent" />
+
+</RelativeLayout>

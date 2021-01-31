@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452390192657",
+    "project_id": "farmerassist07",
+    "storage_bucket": "farmerassist07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452390192657:android:1ef1ca9999177490bc93b0",
+        "android_client_info": {
+          "package_name": "com.example.farmerassist07"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452390192657-4hqpj1jac0jifm0avpsou9pt16oop98l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-5cLNGFuVcsvyW9fZ4vKwG31jAr1Ncs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452390192657-4hqpj1jac0jifm0avpsou9pt16oop98l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
